@@ -4,6 +4,7 @@
     box-sizing: border-box;}
 body{
     background-image: url(Images/3D-graphics_Tear_005290_.jpg);
+    background-size: cover;
 }
 nav{
     background-color: blue;
@@ -90,7 +91,6 @@ footer{
        padding: 7em;
        margin-top: -12em;      
    }
-}
 .nav-menu{
     background-color: green;
     text-align: center;
