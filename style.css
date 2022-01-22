@@ -1,5 +1,9 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;}
 body{
-    background-color: rgb(114, 122, 114);
+    background-image: url(Images/3D-graphics_Tear_005290_.jpg);
 }
 nav{
     background-color: blue;
@@ -13,10 +17,12 @@ li{
     margin: 15px;
     color: white;
     list-style: none;
+    padding: 3em;
 }
 a{
     color: white;
     text-decoration: none;
+    display: inline-flex;
 }
 .figure img{
     width: 15em;
@@ -84,19 +90,44 @@ footer{
        padding: 7em;
        margin-top: -12em;      
    }
-.nav-II ul li:hover .sub-menu{
-    display: block;
-    position: absolute;
-    background-color: blue;}
-.nav-II ul li:hover .sub-menu ul {
-    display: block;
+}
+.nav-menu{
+    background-color: green;
+    text-align: center;
+}
+.nav-menu ul{
+    display: inline-flex;
+}
+.nav-menu li{
+    list-style: none;
+    margin: 15px;
+}
+.nav-menu ul li a{
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.active{
+    background-color: tomato;
+}
+.nav-menu ul li:hover{
+    background-color: tomato;
 }
 .sub-menu{
     display: none;
 }
-.nav-II ul li:hover .sub-menu ul li{
-    border-bottom: 2px dotted burlywood;
+.nav-menu ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: green;
 }
-.nav-II ul li:hover .sub-menu ul li:last-child{
-    border-bottom: none;
+.nav-menu ul li:hover .sub-menu ul{
+    display: block;
+    width: 10em;
 }
+.nav-menu ul li:hover .sub-menu ul li{
+    border-bottom: 2px dotted red;
+}
+.nav-menu ul li:hover .sub-menu ul li:last-child{
+    border-bottom: none;}
