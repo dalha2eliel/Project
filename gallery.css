@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(Images/3D-graphics_Tear_005290_.jpg);
+    background-size: cover;
+}
+.nav-menu{
+    background-color: green;
+    text-align: center;
+}
+.nav-menu ul{
+    display: inline-flex;
+}
+.nav-menu li{
+    list-style: none;
+    margin: 15px;
+}
+.nav-menu ul li a{
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.active{
+    background-color: tomato;
+}
+.nav-menu ul li:hover{
+    background-color: tomato;
+}
+.sub-menu{
+    display: none;
+}
+.nav-menu ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: green;
+}
+.nav-menu ul li:hover .sub-menu ul{
+    display: block;
+    width: 10em;
+}
+.nav-menu ul li:hover .sub-menu ul li{
+    border-bottom: 2px dotted red;
+}
+.nav-menu ul li:hover .sub-menu ul li:last-child{
+    border-bottom: none;}
+    .figure-I img{
+        width: 250px;
+        height: 250px;
+        display: inline-block;
+        margin-left: -2em;
+        padding-left: -11em;
+        border: 1px dotted gold;
+        border-radius: 100px;
+    }

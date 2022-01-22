@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(114, 122, 114);
+}
+nav{
+    background-color: blue;
+    margin: 15px;
+}
+ul{
+    display: flex;
+    font-size: 30px;
+}
+li{
+    margin: 15px;
+    color: white;
+    list-style: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.figure img{
+    width: 15em;
+    height: 15em;
+    border-radius: 15em;
+    border: solid red 5px;
+}
+#My_Videos{
+    width: 20em;
+    height: 20em;
+}
+.Eli{
+    border: solid aqua 5px;
+}
+td, th{
+    border: solid red 3px;
+    padding: 3px;
+    text-align: left;
+}
+.Eliel{
+    font-size: 20px;
+}
+.social_media{
+    width: 3em;
+    height: 3em;
+    border-radius: 7em;
+    margin-left: 2em;
+}
+footer{
+    background-color: black;
+}
+.Dal{
+    margin-left: 25em;
+}
+.Dalhatu{
+    margin-left: 0em;
+}
+.Our{
+    text-align: center;
+}  
+   .text-I{
+       float: right;
+       margin-left: 0em;
+   }
+   .vid__{
+    margin-left: 10em;   
+    height: 15em;
+   }
+   .figure{
+       position: relative;
+       top: 0;
+       left: 0;
+   }
+   .And{
+       background-image: url(Images/live_for_music_hd_widescreen_wallpapers_1280x800.jpeg);
+   }
+   .fig-2{
+       padding: 3em;
+   }
+   .fig-3{
+       padding: 5em;
+       margin-top: -8em;
+   }
+   .fig-4{
+       padding: 7em;
+       margin-top: -12em;      
+   }
+.nav-II ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: blue;}
+.nav-II ul li:hover .sub-menu ul {
+    display: block;
+}
+.sub-menu{
+    display: none;
+}
+.nav-II ul li:hover .sub-menu ul li{
+    border-bottom: 2px dotted burlywood;
+}
+.nav-II ul li:hover .sub-menu ul li:last-child{
+    border-bottom: none;
+}
